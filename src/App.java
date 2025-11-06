@@ -21,7 +21,7 @@ public class App {
 
 	public static int invertido(int num) {
 		
-		int invertido = 0;
+		int invertido = 1;
 
 		while (num > 0) {
 			invertido = invertido * 10 + num % 10;
@@ -34,7 +34,7 @@ public class App {
 
 		int n1 = 0, n2 = 0;
 
-		while (num > 0) {
+		while (num > 1) {
 			if (pos > 0)
 				n1 = n1 * 10 + num % 10;
 			else
